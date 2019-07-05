@@ -3,12 +3,20 @@
     "configurations": [
         {
             "type": "al",
-            "request": "launch",            
+            "request": "launch",   
+            // ---------------TEST ---------------         
+            // "name": "Your own server",
+            // "server": "http://10.2.16.181",                    
+            // "serverInstance": "CRE-NAV-TEST",
+            // "port"  : 7049, 
+            // "authentication": "Windows",
+            // ---------------DEV ---------------         
             "name": "Your own server",
-            "server": "http://172.28.21.13",                    
-            "serverInstance": "NAV",
-            "port"  : 7049, 
+            "server": "http://10.2.16.181",                    
+            "serverInstance": "CRE-NAV-DEV",
+            "port"  : 8049, 
             "authentication": "Windows",
+            //--------------------------------------
             //"tenant": "default",
             //"startupObjectId": 22,
            "schemaUpdateMode": "Synchronize"
